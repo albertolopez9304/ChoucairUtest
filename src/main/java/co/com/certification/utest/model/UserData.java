@@ -12,6 +12,36 @@ public class UserData {
     private String postalCode;
     private String country;
     private String password;
+    private String computer;
+    private String version;
+    private String language;
+    private String mobile;
+    private String modelMobile;
+    private String operatingSystem;
+
+    public String getComputer() {
+        return computer;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public String getLanguage() {
+        return language;
+    }
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public String getModelMobile() {
+        return modelMobile;
+    }
+
+    public String getOperatingSystem() {
+        return operatingSystem;
+    }
 
     public String getFirtsName() {
         return firtsName;

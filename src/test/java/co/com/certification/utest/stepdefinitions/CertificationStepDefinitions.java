@@ -30,7 +30,7 @@ public class CertificationStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(
                 RegisterUserPage.withData(userData.get(0)),
                 RegisterAddress.withData(userData.get(0)),
-                RegisterDevice.withData(),
+                RegisterDevice.withData(userData.get(0)),
                 CreatePassword.withData(userData.get(0))
         );
     }
