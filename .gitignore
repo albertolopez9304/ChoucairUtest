@@ -11,9 +11,8 @@
 # Intellij
 
 .idea/
-
+target/
 .gradle/
-.target/
 
 *.iml
 
@@ -67,6 +66,7 @@ hs_err_pid*
 .gradle
 
 build/
+target/
 
 # Ignore Gradle GUI config
 
